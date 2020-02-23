@@ -1,5 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+// import tailwind into vue app
+import '@/assets/css/tailwind.css'
+
+import App from './App'
 
 // import router to vue instance
 import Routers from './router'
