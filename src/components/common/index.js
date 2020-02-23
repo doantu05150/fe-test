@@ -1,0 +1,1 @@
+export { default as TNavbar } from './Navbar'
