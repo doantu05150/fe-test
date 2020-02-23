@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="border-b border-gray-600 px-6 py-2">
+    <div class="px-6 py-2">
       <div class="flex items-center">
         <div class="flex-1">
           <router-link to="/" class="nav-link hover:font-medium">Home</router-link>
-          <router-link to="/sercet" class="nav-link hover:font-medium">Sercet</router-link>
+          <router-link to="#" class="nav-link hover:font-medium">Sercet</router-link>
         </div>
         <div>
           <button class="btn-home hover:text-blue-900">Login</button>
@@ -16,6 +16,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    openForm() {
+      console.log('xx')
+    }
+  }
+}
+</script>
 
 <style scoped>
 .nav-link {
