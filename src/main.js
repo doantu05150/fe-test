@@ -1,6 +1,8 @@
 import Vue from 'vue'
 // import tailwind into vue app
 import '@/assets/css/tailwind.css'
+// import  font-awesome
+import '@/plugins/font-awesome.js'
 
 import App from './App'
 
